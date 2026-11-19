@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("menuToggle");
 
     if (menuToggle && navbar) {
+        menuToggle.setAttribute("aria-expanded", "false");
         menuToggle.addEventListener("click", () => {
             const isOpen = navbar.classList.toggle("active");
             menuToggle.setAttribute("aria-expanded", String(isOpen));
@@ -13,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 : '<i class="fa-solid fa-bars"></i>';
         });
 
-        navbar.querySelectorAll('a[href^="#"]').forEach((link) => {
+        navbar.querySelectorAll('a[href*="#"]').forEach((link) => {
             link.addEventListener("click", () => {
                 navbar.classList.remove("active");
                 menuToggle.setAttribute("aria-expanded", "false");
@@ -34,22 +35,27 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    const year = document.getElementById("currentYear");
+    if (year) year.textContent = String(new Date().getFullYear());
+
     const contactForm = document.getElementById("contactForm");
     if (contactForm) {
         contactForm.addEventListener("submit", (event) => {
             event.preventDefault();
-            const fields = contactForm.querySelectorAll("input, select, textarea");
-            const [name, email, subject, service, message] = Array.from(fields).map((field) => field.value.trim());
-            const text = [
+            const data = new FormData(contactForm);
+            const value = (key) => String(data.get(key) || "").trim();
+            const message = [
                 "Hello UDH Digital, I would like to discuss a project.",
                 "",
-                "Name: " + name,
-                "Email: " + email,
-                "Subject: " + (subject || "Not specified"),
-                "Service: " + (service || "Not specified"),
-                "Project details: " + message
+                "Name: " + value("name"),
+                "Email: " + value("email"),
+                "Website: " + (value("website") || "Not provided"),
+                "Request: " + value("service"),
+                "Preferred day/time: " + (value("preferred_time") || "Flexible"),
+                "",
+                "Project details: " + value("message")
             ].join("\n");
-            const whatsappUrl = "https://wa.me/923027358710?text=" + encodeURIComponent(text);
+            const whatsappUrl = "https://wa.me/923027358710?text=" + encodeURIComponent(message);
             window.open(whatsappUrl, "_blank", "noopener,noreferrer");
         });
     }

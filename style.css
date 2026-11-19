@@ -1309,3 +1309,32 @@ select {
 @media (max-width: 850px) {
     .navbar { left: 0; transform: none; }
 }
+
+
+/* UDH DIGITAL LOGO */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.site-logo {
+    display: block;
+    width: 150px;
+    height: 58px;
+    object-fit: contain;
+    object-position: left center;
+}
+.footer-site-logo {
+    width: 160px;
+    height: 62px;
+}
+@media (max-width: 600px) {
+    .site-logo {
+        width: 125px;
+        height: 52px;
+    }
+    .footer-site-logo {
+        width: 145px;
+        height: 58px;
+    }
+}

@@ -1338,3 +1338,51 @@ select {
         height: 58px;
     }
 }
+
+
+/* FIX: Keep the portrait UDH logo contained inside the navigation bar */
+.header .nav-container {
+    min-height: 100px;
+    height: 100px;
+}
+.header .nav-container > .logo {
+    width: 110px;
+    height: 90px;
+    overflow: hidden;
+}
+.header .nav-container > .logo img.site-logo {
+    display: block;
+    width: 110px !important;
+    height: 90px !important;
+    max-width: 110px !important;
+    max-height: 90px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.footer .footer-logo img.footer-site-logo {
+    display: block;
+    width: 110px !important;
+    height: 90px !important;
+    max-width: 110px !important;
+    max-height: 90px !important;
+    object-fit: contain;
+}
+@media (max-width: 850px) {
+    .header .nav-container {
+        min-height: 82px;
+        height: 82px;
+    }
+    .header .nav-container > .logo {
+        width: 88px;
+        height: 74px;
+    }
+    .header .nav-container > .logo img.site-logo {
+        width: 88px !important;
+        height: 74px !important;
+        max-width: 88px !important;
+        max-height: 74px !important;
+    }
+    .navbar {
+        top: 82px;
+    }
+}

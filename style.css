@@ -1657,7 +1657,7 @@ select {
     padding-left: 20px;
 }
 .services-grid-primary .service-points li::before {
-    content: "\\f00c";
+    content: "\f00c";
     position: absolute;
     left: 0;
     top: 2px;

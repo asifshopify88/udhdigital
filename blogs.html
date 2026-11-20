@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Blogs | Shopify, Web Development & SEO Insights | UDH Digital</title>
+  <meta name="description" content="Read practical insights from UDH Digital about Shopify development, website development, e-commerce and search engine optimization.">
+  <link rel="canonical" href="https://udhdigital.com/blogs.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blogs | UDH Digital">
+  <meta property="og:description" content="Practical Shopify, web development and SEO insights from UDH Digital.">
+  <meta property="og:url" content="https://udhdigital.com/blogs.html">
+  <meta property="og:image" content="https://udhdigital.com/udh-logo.jpg">
+  <link rel="icon" href="udh-logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blogs.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html#home" class="logo" aria-label="UDH Digital Home"><img src="udh-logo.jpg" alt="UDH Digital" class="site-logo"></a>
+      <nav class="navbar" id="navbar">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="blogs.html" class="nav-link active" aria-current="page">Blogs</a>
+        <a href="index.html#about" class="nav-link">About Us</a>
+        <a href="index.html#contact" class="nav-link">Contact Us</a>
+        <a href="index.html#contact" class="nav-cta">Free Consultation</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="blogs-hero">
+      <div class="container blogs-hero-inner">
+        <div>
+          <span class="blogs-eyebrow"><i class="fa-regular fa-pen-to-square"></i> UDH DIGITAL KNOWLEDGE HUB</span>
+          <h1>Ideas, Insights & <span>Practical Guides</span></h1>
+          <p>Explore useful articles about Shopify, website development, e-commerce and SEO. Our goal is to share practical guidance that helps businesses make better digital decisions.</p>
+          <a href="#blog-topics" class="btn btn-primary">Explore Topics <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+        <div class="blogs-hero-art" aria-hidden="true">
+          <div class="blog-art-card"><i class="fa-solid fa-book-open"></i><strong>Learn. Improve. Grow.</strong><span>Shopify · Web · SEO</span></div>
+          <div class="blog-art-chip"><i class="fa-solid fa-lightbulb"></i> Practical Knowledge</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs-content" id="blog-topics">
+      <div class="container">
+        <div class="blogs-heading">
+          <span class="section-tag">BROWSE BY CATEGORY</span>
+          <h2>Explore Our <span>Blog Topics</span></h2>
+          <p>Choose a topic to find articles and helpful resources. New posts will appear here as they are published.</p>
+        </div>
+        <div class="blog-category-grid">
+          <a class="blog-category-card shopify-topic" href="#articles">
+            <span class="blog-topic-icon"><i class="fa-brands fa-shopify"></i></span>
+            <span class="blog-topic-label">SHOPIFY</span>
+            <h3>Shopify Guides & Tips</h3>
+            <p>Store setup, theme customization, Liquid development, conversion optimization and e-commerce growth.</p>
+            <span class="blog-topic-link">Explore Shopify articles <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+          <a class="blog-category-card web-topic" href="#articles">
+            <span class="blog-topic-icon"><i class="fa-solid fa-laptop-code"></i></span>
+            <span class="blog-topic-label">WEB DEVELOPMENT</span>
+            <h3>Website Development</h3>
+            <p>Website planning, design, responsive development, WordPress and practical website improvements.</p>
+            <span class="blog-topic-link">Explore web articles <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+          <a class="blog-category-card seo-topic" href="#articles">
+            <span class="blog-topic-icon"><i class="fa-solid fa-chart-line"></i></span>
+            <span class="blog-topic-label">SEO</span>
+            <h3>SEO & Online Visibility</h3>
+            <p>On-page SEO, technical SEO, keyword research, content optimization and search performance.</p>
+            <span class="blog-topic-link">Explore SEO articles <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="article-archive" id="articles">
+          <div class="archive-heading">
+            <div><span class="section-tag">LATEST ARTICLES</span><h2>All <span>Blogs</span></h2></div>
+          </div>
+          <div class="blogs-empty-state">
+            <span><i class="fa-regular fa-newspaper"></i></span>
+            <h3>Articles are coming soon</h3>
+            <p>We are preparing practical articles and guides for business owners, e-commerce brands and website professionals. Published blogs will be listed here.</p>
+            <a href="index.html#contact" class="btn btn-outline">Ask Us a Question <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs-cta">
+      <div class="container blogs-cta-inner">
+        <div><span class="section-tag">NEED HELP WITH YOUR WEBSITE?</span><h2>Let's grow your <span>online presence.</span></h2><p>Talk to our team about Shopify, web development or SEO.</p></div>
+        <a href="index.html#contact" class="btn btn-primary">Free Consultation <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom-content"><p>© <span id="currentYear"></span> UDH Digital. All rights reserved.</p><a href="index.html">Back to Home</a></div>
+  </footer>
+  <a href="https://wa.me/923027358710?text=Hello%20UDH%20Digital%2C%20I%20would%20like%20to%20discuss%20a%20project." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with UDH Digital on WhatsApp" title="Chat with us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
+</html>

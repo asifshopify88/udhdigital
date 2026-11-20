@@ -1839,3 +1839,32 @@ select {
         padding: 28px;
     }
 }
+
+
+/* Homepage service cards: allow the ten-item Web Development list to fit cleanly */
+.services-grid-primary > .service-card {
+    min-height: 700px;
+}
+.services-grid-primary .service-points {
+    flex: 1 0 auto;
+    min-height: 0;
+    gap: 9px;
+    margin-bottom: 24px;
+}
+.services-grid-primary .service-points li {
+    line-height: 1.5;
+}
+@media (max-width: 1050px) {
+    .services-grid-primary > .service-card {
+        min-height: 700px;
+    }
+}
+@media (max-width: 600px) {
+    .services-grid-primary > .service-card {
+        min-height: 700px;
+        height: auto;
+    }
+    .services-grid-primary .service-points {
+        flex-basis: auto;
+    }
+}

@@ -308,6 +308,23 @@ const portfolioProjects = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
+  const navbar = document.getElementById("navbar");
+  const menuToggle = document.getElementById("menuToggle");
+  if (navbar && menuToggle) {
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navbar.classList.toggle("active");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Close Menu" : "Open Menu");
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+    navbar.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+      navbar.classList.remove("active");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", "Open Menu");
+      menuToggle.textContent = "☰";
+    }));
+  }
+
   const grid = document.getElementById("projectGrid");
   const search = document.getElementById("projectSearch");
   const emptyState = document.getElementById("emptyState");

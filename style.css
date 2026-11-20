@@ -1978,3 +1978,13 @@ select {
         font-size: 28px;
     }
 }
+
+
+/* Dedicated Portfolio page */
+.portfolio-page-hero { padding-top: 68px; }
+.portfolio-page-grid { align-items: stretch; }
+.portfolio-page-grid .portfolio-card { height: 100%; }
+.portfolio-page-grid .portfolio-info { display: flex; flex-direction: column; height: 100%; }
+.portfolio-page-grid .portfolio-info p { color: #64748b; font-size: 13px; margin-bottom: 22px; }
+.portfolio-page-grid .portfolio-info a { margin-top: auto; color: #1597d4; }
+.portfolio-page-note { max-width: 850px; margin: 28px auto 0; text-align: center; color: #64748b; font-size: 13px; line-height: 1.7; }

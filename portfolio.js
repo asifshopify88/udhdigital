@@ -373,7 +373,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </article>`;
     }).join("");
 
-    emptyState.hidden = filtered.length !== 0;
+    grid.querySelectorAll(".project-visual img").forEach(image => {\n      image.addEventListener("load", () => {\n        const placeholder = image.parentElement.querySelector(".project-placeholder");\n        if (placeholder) placeholder.hidden = true;\n      });\n    });\n    emptyState.hidden = filtered.length !== 0;
   }
 
   filterButtons.forEach(button => {

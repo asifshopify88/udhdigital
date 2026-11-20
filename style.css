@@ -1708,3 +1708,35 @@ select {
         flex-basis: 112px;
     }
 }
+
+
+/* Shopify services summary beneath the three equal homepage service cards */
+.shopify-services-summary {
+    max-width: 1040px;
+    margin: 34px auto 0;
+    padding: 22px 26px;
+    border: 1px solid #dcecf5;
+    border-radius: 14px;
+    background: #f7fcff;
+}
+.shopify-services-summary h3 {
+    margin: 0 0 8px;
+    color: #0b1120;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.shopify-services-summary p {
+    margin: 0;
+    color: #5b6b80;
+    font-size: 14px;
+    line-height: 1.75;
+}
+@media (max-width: 600px) {
+    .shopify-services-summary {
+        margin-top: 22px;
+        padding: 19px;
+    }
+    .shopify-services-summary p {
+        font-size: 13px;
+    }
+}

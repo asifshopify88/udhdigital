@@ -1868,3 +1868,28 @@ select {
         flex-basis: auto;
     }
 }
+
+
+/* Ensure the twelve-item SEO service list has room and the CTA stays below it */
+.services-grid-primary > .service-card {
+    min-height: 760px;
+}
+.services-grid-primary .service-points {
+    flex: 1 0 auto;
+    min-height: 0;
+    gap: 8px;
+}
+.services-grid-primary .service-points li {
+    line-height: 1.5;
+}
+@media (max-width: 1050px) {
+    .services-grid-primary > .service-card {
+        min-height: 760px;
+    }
+}
+@media (max-width: 600px) {
+    .services-grid-primary > .service-card {
+        min-height: 760px;
+        height: auto;
+    }
+}

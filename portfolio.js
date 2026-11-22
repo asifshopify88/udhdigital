@@ -4,6 +4,16 @@
 
 const portfolioProjects = [
   {
+    "id": "shopify-02",
+    "category": "shopify",
+    "categoryLabel": "Shopify Store Development",
+    "title": "Skinatona – Shopify Store",
+    "description": "Shopify store design and development project for Skinatona.",
+    "image": "skinatona-portfolio.png",
+    "imageAlt": "Skinatona Shopify store screenshot",
+    "url": "https://skinatona.com/",
+    "review": "UDH Digital was a joy to work with. They understood the assignment and delivered exactly what I needed. They were proactive and made valuable suggestions throughout the project. I highly recommend them."
+  },  {
     "id": "shopify-01",
     "category": "shopify",
     "categoryLabel": "Shopify Store Development",
@@ -14,17 +24,7 @@ const portfolioProjects = [
     "url": "https://luxuryguilt.com/",
     "review": "I had a great experience working with UDH Digital. They did an excellent job on my project. They are very professional, delivered the work on time, and the quality was outstanding. I highly recommend them to anyone looking for reliable and professional service. Thank you, UDH Digital!"
   },
-  {
-    "id": "shopify-02",
-    "category": "shopify",
-    "categoryLabel": "Shopify Store Development",
-    "title": "Skinatona – Shopify Store",
-    "description": "Shopify store design and development project for Skinatona.",
-    "image": "skinatona-portfolio.png",
-    "imageAlt": "Skinatona Shopify store screenshot",
-    "url": "https://skinatona.com/",
-    "review": "UDH Digital was a joy to work with. They understood the assignment and delivered exactly what I needed. They were proactive and made valuable suggestions throughout the project. I highly recommend them."
-  },
+
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

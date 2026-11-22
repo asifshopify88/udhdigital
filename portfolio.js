@@ -342,9 +342,11 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderProjects() {
     const term = search.value.trim().toLowerCase();
     const filtered = portfolioProjects.filter(project => {
+      // Show only real projects; hide empty sample placeholders.
+      const hasRealContent = Boolean(project.image || project.url || project.review);
       const matchesCategory = activeFilter === "all" || project.category === activeFilter;
       const searchable = [project.title, project.categoryLabel, project.description].join(" ").toLowerCase();
-      return matchesCategory && searchable.includes(term);
+      return hasRealContent && matchesCategory && searchable.includes(term);
     });
 
     grid.innerHTML = filtered.map(project => {
@@ -359,7 +361,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <article class="project-card">
           <div class="project-visual ${escapeHTML(project.category)}">
             ${imageMarkup}
-            <span class="project-number">${escapeHTML(project.id.toUpperCase())}</span>
             <div class="project-placeholder">
               <i class="${icons[project.category]}"></i>
               <span>${visualLabels[project.category]}</span>

@@ -22,7 +22,8 @@ const portfolioProjects = [
     "description": "Shopify store design and development project for Skinatona.",
     "image": "skinatona-portfolio.png",
     "imageAlt": "Skinatona Shopify store screenshot",
-    "review": "UDH Digital was a joy to work with me. They understood the assignment and delivered accordingly. They are proactive and made good suggestions. I highly recommend Them."
+    "url": "https://skinatona.com/",
+    "review": "UDH Digital was a joy to work with. They understood the assignment and delivered exactly what I needed. They were proactive and made valuable suggestions throughout the project. I highly recommend them."
   },
 ];
 

@@ -62,3 +62,6 @@
 .footer-bottom-content a{color:#8bd9ff;font-weight:700}
 @media(max-width:900px){.work-hero-inner{gap:25px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.work-toolbar{align-items:flex-start;flex-direction:column}.work-search{width:100%}}
 @media(max-width:650px){.work-hero{padding:38px 0 10px}.work-hero-inner{grid-template-columns:1fr}.work-hero-art{display:none}.work-section{padding:10px 0 62px}.project-grid{grid-template-columns:1fr}.project-visual{min-height:200px}.work-cta-inner{align-items:flex-start;flex-direction:column}.work-cta-inner .btn{width:100%;text-align:center}.footer-bottom-content{align-items:flex-start;flex-direction:column}}
+
+.work-hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:4px}
+@media(max-width:650px){.work-hero-actions{gap:10px}.work-hero-actions .btn{width:100%;text-align:center;justify-content:center}}

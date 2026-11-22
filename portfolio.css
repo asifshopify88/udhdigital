@@ -65,3 +65,30 @@
 
 .work-hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:4px}
 @media(max-width:650px){.work-hero-actions{gap:10px}.work-hero-actions .btn{width:100%;text-align:center;justify-content:center}}
+
+/* Keep both portfolio hero buttons visually identical */
+.work-hero-actions .btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-width:211px;
+  min-height:55px;
+  padding:15px 22px;
+  border:1px solid #1597d4;
+  border-radius:9px;
+  background:#1597d4;
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  line-height:1.2;
+  text-align:center;
+}
+.work-hero-actions .btn:hover{
+  border-color:#087fb8;
+  background:#087fb8;
+  color:#fff;
+}
+@media(max-width:650px){
+  .work-hero-actions .btn{width:100%;min-width:0}
+}

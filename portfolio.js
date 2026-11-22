@@ -11,8 +11,8 @@ const portfolioProjects = [
     "categoryLabel": "Shopify Store Development",
     "title": "Luxury Guilt – Shopify Store",
     "description": "Designed and developed a polished Shopify fashion storefront with collection-focused navigation and a responsive shopping experience.",
-    "image": "",
-    "imageAlt": "Luxury Guilt Shopify store homepage",
+    "image": "luxuryguilt-portfolio.png",
+    "imageAlt": "Luxury Guilt Shopify store homepage screenshot",
     "url": "https://luxuryguilt.com/",
     "review": "I had a great experience working with UDH Digital. They did an excellent job on my project. They are very professional, delivered the work on time, and the quality was outstanding. I highly recommend them to anyone looking for reliable and professional service. Thank you, UDH Digital!"
   },

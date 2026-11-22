@@ -1,5 +1,5 @@
 /* UDH Digital - dedicated portfolio page */
-.work-hero{position:relative;overflow:hidden;padding:38px 0 30px;background:linear-gradient(115deg,#f8fcff 0%,#fff 48%,#eaf7fd 100%)}
+.work-hero{position:relative;overflow:hidden;padding:38px 0 12px;background:linear-gradient(115deg,#f8fcff 0%,#fff 48%,#eaf7fd 100%)}
 .work-hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-150px;top:-180px;background:rgba(32,168,232,.08)}
 .work-hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:30px}
 .work-hero-copy{max-width:650px}
@@ -18,7 +18,7 @@
 .art-code small{color:#a9c3d9;font-size:11px;letter-spacing:1px}
 .art-float{position:absolute;right:0;bottom:22px;display:flex;align-items:center;gap:10px;padding:14px 18px;border-radius:13px;background:#fff;color:#142238;font-size:12px;font-weight:800;box-shadow:0 15px 35px rgba(15,23,42,.13)}
 .art-float i{color:#20a8e8;font-size:19px}
-.work-section{padding:30px 0 95px;background:#fff}
+.work-section{padding:12px 0 95px;background:#fff}
 .work-heading{max-width:700px;margin:0 auto 28px;text-align:center}
 .work-heading h2{margin:0 0 14px;color:#0b1120;font-size:clamp(30px,4vw,42px);line-height:1.2}
 .work-heading p{color:#64748b;font-size:14px;line-height:1.75}
@@ -61,4 +61,4 @@
 .footer-bottom-content{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px}
 .footer-bottom-content a{color:#8bd9ff;font-weight:700}
 @media(max-width:900px){.work-hero-inner{gap:25px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.work-toolbar{align-items:flex-start;flex-direction:column}.work-search{width:100%}}
-@media(max-width:650px){.work-hero{padding:38px 0 25px}.work-hero-inner{grid-template-columns:1fr}.work-hero-art{display:none}.work-section{padding:25px 0 62px}.project-grid{grid-template-columns:1fr}.project-visual{min-height:200px}.work-cta-inner{align-items:flex-start;flex-direction:column}.work-cta-inner .btn{width:100%;text-align:center}.footer-bottom-content{align-items:flex-start;flex-direction:column}}
+@media(max-width:650px){.work-hero{padding:38px 0 10px}.work-hero-inner{grid-template-columns:1fr}.work-hero-art{display:none}.work-section{padding:10px 0 62px}.project-grid{grid-template-columns:1fr}.project-visual{min-height:200px}.work-cta-inner{align-items:flex-start;flex-direction:column}.work-cta-inner .btn{width:100%;text-align:center}.footer-bottom-content{align-items:flex-start;flex-direction:column}}

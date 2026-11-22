@@ -1,8 +1,6 @@
 // UDH Digital portfolio content
-// Add your own project details by editing the 30 entries below.
-// image: "images/your-project.jpg" (upload the image into the repository first)
-// url: "https://your-live-project.com" (leave empty if no public link)
-// Keep 10 entries in each service category, or add more entries if needed.
+// Portfolio projects are listed below.
+// Upload project screenshots to the repository root and use the exact filename.
 
 const portfolioProjects = [
   {
@@ -15,6 +13,16 @@ const portfolioProjects = [
     "imageAlt": "Luxury Guilt Shopify store homepage screenshot",
     "url": "https://luxuryguilt.com/",
     "review": "I had a great experience working with UDH Digital. They did an excellent job on my project. They are very professional, delivered the work on time, and the quality was outstanding. I highly recommend them to anyone looking for reliable and professional service. Thank you, UDH Digital!"
+  },
+  {
+    "id": "shopify-02",
+    "category": "shopify",
+    "categoryLabel": "Shopify Store Development",
+    "title": "Skinatona – Shopify Store",
+    "description": "Shopify store design and development project for Skinatona.",
+    "image": "skinatona-portfolio.png",
+    "imageAlt": "Skinatona Shopify store screenshot",
+    "review": "UDH Digital was a joy to work with me. They understood the assignment and delivered accordingly. They are proactive and made good suggestions. I highly recommend Them."
   },
 ];
 
@@ -65,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         : "";
       const linkMarkup = project.url
         ? `<a class="project-link" href="${escapeHTML(project.url)}" target="_blank" rel="noopener noreferrer">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>`
-        : '<span class="project-status">Add project link</span>';
+        : "";
 
       return `
         <article class="project-card">

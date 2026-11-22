@@ -13,7 +13,19 @@ const portfolioProjects = [
     "imageAlt": "Skinatona Shopify store screenshot",
     "url": "https://skinatona.com/",
     "review": "UDH Digital was a joy to work with. They understood the assignment and delivered exactly what I needed. They were proactive and made valuable suggestions throughout the project. I highly recommend them."
-  },  {
+  },
+  {
+    "id": "shopify-03",
+    "category": "shopify",
+    "categoryLabel": "Shopify Store Development",
+    "title": "Seawright Studios – Shopify Store",
+    "description": "Shopify store design and development project for Seawright Studios.",
+    "image": "seawrightstudios-portfolio.png",
+    "imageAlt": "Seawright Studios Shopify store screenshot",
+    "url": "https://www.seawrightstudios.com/",
+    "review": "Working with UDH Digital was a great experience. The team was responsible and committed throughout the entire project. They were kind, helpful, and attentive to every detail. The quality of their work was excellent and highly professional. I highly recommend UDH Digital."
+  },
+  {
     "id": "shopify-01",
     "category": "shopify",
     "categoryLabel": "Shopify Store Development",

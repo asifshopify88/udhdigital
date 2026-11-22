@@ -106,6 +106,7 @@ const portfolioProjects = [
     "imageAlt": "",
     "url": ""
   }
+];
 
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.getElementById("navbar");

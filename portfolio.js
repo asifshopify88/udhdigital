@@ -105,6 +105,206 @@ const portfolioProjects = [
     "image": "",
     "imageAlt": "",
     "url": ""
+  },
+  {
+    "id": "web-01",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 01",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-02",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 02",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-03",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 03",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-04",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 04",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-05",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 05",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-06",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 06",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-07",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 07",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-08",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 08",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-09",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 09",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "web-10",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "title": "Web Development Project 10",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-01",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 01",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-02",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 02",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-03",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 03",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-04",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 04",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-05",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 05",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-06",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 06",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-07",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 07",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-08",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 08",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-09",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 09",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
+  },
+  {
+    "id": "seo-10",
+    "category": "seo",
+    "categoryLabel": "SEO",
+    "title": "SEO Project 10",
+    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "image": "",
+    "imageAlt": "",
+    "url": ""
   }
 ];
 

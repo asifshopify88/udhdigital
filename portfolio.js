@@ -8,12 +8,13 @@ const portfolioProjects = [
   {
     "id": "shopify-01",
     "category": "shopify",
-    "categoryLabel": "Shopify Development",
-    "title": "Shopify Project 01",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
+    "categoryLabel": "Shopify Store Development",
+    "title": "Luxury Guilt – Shopify Store",
+    "description": "Designed and developed a polished Shopify fashion storefront with collection-focused navigation and a responsive shopping experience.",
     "image": "",
-    "imageAlt": "",
-    "url": ""
+    "imageAlt": "Luxury Guilt Shopify store homepage",
+    "url": "https://luxuryguilt.com/",
+    "review": "I had a great experience working with UDH Digital. They did an excellent job on my project. They are very professional, delivered the work on time, and the quality was outstanding. I highly recommend them to anyone looking for reliable and professional service. Thank you, UDH Digital!"
   },
   {
     "id": "shopify-02",
@@ -104,208 +105,7 @@ const portfolioProjects = [
     "image": "",
     "imageAlt": "",
     "url": ""
-  },
-  {
-    "id": "web-01",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 01",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-02",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 02",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-03",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 03",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-04",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 04",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-05",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 05",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-06",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 06",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-07",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 07",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-08",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 08",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-09",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 09",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "web-10",
-    "category": "web",
-    "categoryLabel": "Web Development",
-    "title": "Web Project 10",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-01",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 01",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-02",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 02",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-03",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 03",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-04",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 04",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-05",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 05",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-06",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 06",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-07",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 07",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-08",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 08",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-09",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 09",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
-  },
-  {
-    "id": "seo-10",
-    "category": "seo",
-    "categoryLabel": "SEO Services",
-    "title": "SEO Services Project 10",
-    "description": "Add a short project summary here, including the client's goal and the work completed.",
-    "image": "",
-    "imageAlt": "",
-    "url": ""
   }
-];
 
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.getElementById("navbar");
@@ -369,6 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>${escapeHTML(project.title)}</h3>
             <p>${escapeHTML(project.description)}</p>
             <div class="project-actions">${linkMarkup}</div>
+            ${project.review ? `<div class="project-review"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><p>“${escapeHTML(project.review)}”</p><span>— Client Review</span></div>` : ""}
           </div>
         </article>`;
     }).join("");
